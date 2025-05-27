@@ -16,9 +16,9 @@ declare(strict_types=1);
 
 namespace raklib\protocol;
 
-use pocketmine\utils\Binary;
-use pocketmine\utils\BinaryDataException;
-use pocketmine\utils\BinaryStream;
+use Binary;
+use BinaryDataException;
+use BinaryStream;
 use function ceil;
 use function chr;
 use function strlen;

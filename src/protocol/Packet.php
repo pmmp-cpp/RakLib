@@ -16,7 +16,7 @@ declare(strict_types=1);
 
 namespace raklib\protocol;
 
-use pocketmine\utils\BinaryDataException;
+use BinaryDataException;
 
 abstract class Packet{
 	/** @var int */

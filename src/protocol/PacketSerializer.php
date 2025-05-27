@@ -16,8 +16,8 @@ declare(strict_types=1);
 
 namespace raklib\protocol;
 
-use pocketmine\utils\BinaryDataException;
-use pocketmine\utils\BinaryStream;
+use BinaryDataException;
+use BinaryStream;
 use raklib\utils\InternetAddress;
 use function assert;
 use function count;

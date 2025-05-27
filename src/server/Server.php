@@ -16,7 +16,7 @@ declare(strict_types=1);
 
 namespace raklib\server;
 
-use pocketmine\utils\BinaryDataException;
+use BinaryDataException;
 use raklib\generic\DisconnectReason;
 use raklib\generic\PacketHandlingException;
 use raklib\generic\Session;
